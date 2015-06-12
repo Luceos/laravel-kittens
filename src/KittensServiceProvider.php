@@ -5,8 +5,6 @@ namespace Toniperic\Kittens;
 class KittensServiceProvider extends \Illuminate\Support\ServiceProvider
 {
 
-    protected $defer = true;
-
     public function boot()
     {
         $this->commands([
