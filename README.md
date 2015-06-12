@@ -1,13 +1,14 @@
 # Introduction
 Everyone loves kittens! Have them on your terminal, artisan!
+**Please note this will work with Laravel 5.1 and greater!**
 
 ##Installation
 ###Step #1
 ```
-composer require toniperic/kittens
+composer require toniperic/kittens=~1.0
 ```
 ###Step #2
-Add `Toniperic\Kittens\KittensServiceProvider` to **providers** array in *config/app.php*
+Add `Toniperic\Kittens\KittensServiceProvider::class` to **providers** array in *config/app.php*
 
 ##Usage
 - `php artisan meow`
