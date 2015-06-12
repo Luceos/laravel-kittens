@@ -15,9 +15,10 @@ Add `Toniperic\Kittens\KittensServiceProvider::class` to **providers** array in 
 - `php artisan meow`
 - `php artisan meow:list`
 
+Available kitten types are: Basic, Curious, Funny, Grumpy, Moon, Nyan, Schrodinger
 
 ###Troubleshooting
 If the command isn't displayed among other artisan commands, try running `php artisan clear-compiled` first.
 
 ###Contribute
-Feel free to make PRs if you wish to contribute to the package.
+Feel free to make PRs if you wish to contribute to the package. Just check out some of the examples in the Toniperic\Kittens\Kittens namespace!
