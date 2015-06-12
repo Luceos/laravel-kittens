@@ -14,6 +14,7 @@ Add `Toniperic\Kittens\KittensServiceProvider::class` to **providers** array in 
 ##Usage
 - `php artisan meow`
 - `php artisan meow:list`
+- `php artisan meow grumpy` // or any other type
 
 Available kitten types are: Basic, Curious, Funny, Grumpy, Moon, Nyan, Schrodinger
 
