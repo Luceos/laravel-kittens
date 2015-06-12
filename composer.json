@@ -1,0 +1,20 @@
+{
+    "name": "toniperic/kittens",
+    "description": "Kittens for artisans!",
+    "keywords": ["kittens", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "toniperic",
+            "email": "me@toniperic.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Toniperic\\Kittens\\": "src/"
+        }
+    },
+    "require": {
+        "laravel/framework": "~5.1"
+    }
+}
