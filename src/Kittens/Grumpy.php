@@ -53,6 +53,22 @@ EOF;
                 'top' => 'Unit testing?',
                 'bottom' => 'It fails'
             ],
+            [
+                'top' =>'They said it wouldn\'t be easy..',
+                'bottom' => 'they were right.'
+            ],
+            [
+                'top' =>'Open source contributions were great..',
+                'bottom' => 'until you came along.'
+            ],
+            [
+                'top' =>'You\'ll love Laravel they said,',
+                'bottom' => 'but then came the kittens.'
+            ],
+            [
+                'top' =>'Little animals are adorable..',
+                'bottom' => 'I hate kittens.'
+            ],
         ])->random();
     }
 }
