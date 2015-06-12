@@ -12,3 +12,10 @@ Add `Toniperic\Kittens\KittensServiceProvider` to **providers** array in *config
 ##Usage
 - `php artisan meow`
 - `php artisan meow:list`
+
+
+###Troubleshooting
+If the command isn't displayed among other artisan commands, try running `php artisan clear-compiled` first.
+
+###Contribute
+Feel free to make PRs if you wish to contribute to the package.
